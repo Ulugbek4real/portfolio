@@ -186,7 +186,6 @@ const About = () => {
                     <li className="work-item-li">I helped more than 40 students prepare for Academic IELTS and General English</li>
                    </ul>
                  </div>
-                  
                     </div>
                     </div>
                     <div className="skill-single">
