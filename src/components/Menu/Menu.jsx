@@ -1,22 +1,22 @@
 import "./menu.scss"
 import { FaGithub, FaLinkedin, FaInstagramSquare, FaTelegram } from "react-icons/fa";
-
+import { Link } from "react-router-dom";
 
 export default function Menu({menuOpen,handleMenu}) {
   return (
     <div className={'menu ' + (menuOpen && "active")}>
         <ul>
             <li>
-                <a href="/">Home</a>
+                <Link to="/">Home</Link>
             </li>
             <li>
-                <a href="/resume">Resume</a>
+                <Link to="/resume">Resume</Link>
             </li>
             <li>
-                <a href="/projects">Projects</a>
+                <Link to="/projects">Projects</Link>
             </li>
             <li>
-                <a href="/contact">Contact</a>
+                <Link to="/contact">Contact</Link>
             </li>
         </ul>
         <div className="menuIcons">
